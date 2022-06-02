@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		256194D12848BFE1006E127F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256194D02848BFE1006E127F /* AppDelegate.swift */; };
 		256194D32848BFE1006E127F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256194D22848BFE1006E127F /* ContentView.swift */; };
-		256194D52848BFE2006E127F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 256194D42848BFE2006E127F /* Experience.rcproject */; };
 		256194D72848C00C006E127F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256194D62848C00C006E127F /* Assets.xcassets */; };
 		256194DA2848C00C006E127F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256194D92848C00C006E127F /* Preview Assets.xcassets */; };
+		256194E12848C049006E127F /* CustomShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 256194E02848C049006E127F /* CustomShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		256194CD2848BFE1006E127F /* RealitykitCustomShader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealitykitCustomShader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256194D02848BFE1006E127F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		256194D22848BFE1006E127F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		256194D42848BFE2006E127F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		256194D62848C00C006E127F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256194D92848C00C006E127F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		256194E02848C049006E127F /* CustomShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CustomShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				256194D02848BFE1006E127F /* AppDelegate.swift */,
 				256194D22848BFE1006E127F /* ContentView.swift */,
-				256194D42848BFE2006E127F /* Experience.rcproject */,
+				256194E02848C049006E127F /* CustomShader.metal */,
 				256194D62848C00C006E127F /* Assets.xcassets */,
 				256194D82848C00C006E127F /* Preview Content */,
 			);
@@ -142,7 +142,7 @@
 			files = (
 				256194D32848BFE1006E127F /* ContentView.swift in Sources */,
 				256194D12848BFE1006E127F /* AppDelegate.swift in Sources */,
-				256194D52848BFE2006E127F /* Experience.rcproject in Sources */,
+				256194E12848C049006E127F /* CustomShader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
