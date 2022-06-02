@@ -1,2 +1,1 @@
-Realitykit Custom Shader
-Random tiling shader example
+Realitykit Custom Shader - random tiling
